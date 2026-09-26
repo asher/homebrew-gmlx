@@ -4,9 +4,9 @@ class Gmlx < Formula
 
   desc "Run, serve and fine-tune GGUF models natively on MLX"
   homepage "https://github.com/asher/gmlx"
-  url "https://files.pythonhosted.org/packages/d2/27/33849d3a8cf50cb1953ea2043c6e1d639773f0c45affaad18abe7a29c019/gmlx-0.4.17.tar.gz"
-  sha256 "cb4dbfdf582475e568fa8ccd018a69f4eb456ae6c64a05234980b5879444a3c1"
-  license all_of: ["BUSL-1.1", "MIT"]
+  url "https://files.pythonhosted.org/packages/10/58/b2d86932092f66f565b5150061c9206b85440d110004f2a33419cf3723d8/gmlx-0.4.18.tar.gz"
+  sha256 "ad8de5990f9496769f5e1da15c588ea685159600104e19d9589019f9b80f3530"
+  license all_of: ["BUSL-1.1", "MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
   depends_on "ffmpeg"
@@ -129,8 +129,8 @@ class Gmlx < Formula
   end
 
   resource "filelock" do
-    url "https://files.pythonhosted.org/packages/7a/6d/db8b86e168fef0cf904737e275bccb683558088ef971e92d3b41ce980699/filelock-4.0.3-py3-none-any.whl"
-    sha256 "30cd166e2aee2c7534ce2c33c6367c4cd051b8368e20e2c4eb0c34f699bacfab"
+    url "https://files.pythonhosted.org/packages/bc/ac/8b9c6dc2aa7e9cf5582e20a337006c3428c3d752c2255dbaca2c78a8be45/filelock-4.0.4-py3-none-any.whl"
+    sha256 "0df72be195ca7892216d16f2edce8d9b93a571f02402972020a8cff84c594c7b"
   end
 
   resource "fsspec" do
@@ -269,8 +269,8 @@ class Gmlx < Formula
   end
 
   resource "mlx-kquant" do
-    url "https://files.pythonhosted.org/packages/f1/5e/fde1d277d57da403bfb1f2ac0d6cab1b4bd990c3cf10c7c290cf98a34b91/mlx_kquant-0.4.13-cp313-cp313-macosx_26_0_arm64.whl"
-    sha256 "5236e77fa7a28908df493965a29067b59cd51017465be28f312a0545b15219f1"
+    url "https://files.pythonhosted.org/packages/4e/55/d4ece0dc3d8938c6c8baa0bc7f720e99ebbe6e396f010630260cb48d9e84/mlx_kquant-0.4.14-cp313-cp313-macosx_26_0_arm64.whl"
+    sha256 "ac380821f5e0f15392995591cdd2be5064cac7e5969cb15a25dc085645b5fecc"
   end
 
   resource "mlx-lm" do
