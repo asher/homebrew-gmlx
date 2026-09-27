@@ -3,9 +3,9 @@ class Gmlx < Formula
   include Language::Python::Virtualenv
 
   desc "Run, serve and fine-tune GGUF models natively on MLX"
-  homepage "https://github.com/asher/gmlx"
-  url "https://files.pythonhosted.org/packages/10/58/b2d86932092f66f565b5150061c9206b85440d110004f2a33419cf3723d8/gmlx-0.4.18.tar.gz"
-  sha256 "ad8de5990f9496769f5e1da15c588ea685159600104e19d9589019f9b80f3530"
+  homepage "https://asher.github.io/gmlx/"
+  url "https://files.pythonhosted.org/packages/aa/d5/58d55ae7c4145fcb8eb4575740c4d95b780f3f88749e21717fbcba9599b6/gmlx-0.4.19.tar.gz"
+  sha256 "f96c6406840a09c5b322b35d4ad90ff0f30edeb13e34728a8f8d70b26f5df762"
   license all_of: ["BUSL-1.1", "MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
@@ -269,8 +269,8 @@ class Gmlx < Formula
   end
 
   resource "mlx-kquant" do
-    url "https://files.pythonhosted.org/packages/4e/55/d4ece0dc3d8938c6c8baa0bc7f720e99ebbe6e396f010630260cb48d9e84/mlx_kquant-0.4.14-cp313-cp313-macosx_26_0_arm64.whl"
-    sha256 "ac380821f5e0f15392995591cdd2be5064cac7e5969cb15a25dc085645b5fecc"
+    url "https://files.pythonhosted.org/packages/b1/54/73ab569b437744062373ba4049eac65ff32cb8797d1cf6de12389b7098d9/mlx_kquant-0.4.15-cp313-cp313-macosx_26_0_arm64.whl"
+    sha256 "bc005ea021d85ac7dc421aef5e37c04f45307ccef5b6001040902899d8bd61b3"
   end
 
   resource "mlx-lm" do
@@ -664,8 +664,8 @@ class Gmlx < Formula
   end
 
   resource "wrapt" do
-    url "https://files.pythonhosted.org/packages/fe/07/dc98150c2f9ee5b5fcbd841765e178ea6cc6c43733ab8d1f5181a4fb9f3d/wrapt-2.4.1-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "53e15cd74bd6b84d7fa90b93dda7334d85f4641fae97632de8aa61d268dfd145"
+    url "https://files.pythonhosted.org/packages/4a/13/5d15ef0e2f42d5f084930dc4863e6e52c160c28301c8780aae170c58421c/wrapt-2.5.0-cp313-cp313-macosx_11_0_arm64.whl"
+    sha256 "c57ddae24cf72eb6bd18112638a987cafe6109d90f2df111e6934362cc03ac1a"
   end
 
   def install
