@@ -4,8 +4,8 @@ class Gmlx < Formula
 
   desc "Run, serve and fine-tune GGUF models natively on MLX"
   homepage "https://asher.github.io/gmlx/"
-  url "https://files.pythonhosted.org/packages/c7/4a/52cf56066bf3faebb08f41914eabdda3867306d66885276af68111da6f9c/gmlx-0.4.20.tar.gz"
-  sha256 "f9e78c996735279b3a914847714ed924804b050c637a64a56d5abc06d4002c8f"
+  url "https://files.pythonhosted.org/packages/01/bc/cb9f246c7ea21f335e894dda4ca5b278a71e38d395f9f4e547a6d28e7c40/gmlx-0.4.21.tar.gz"
+  sha256 "c6d3137c973869f0bea89be2f79dd243e8147810dd39b3565972059e7dd561d9"
   license all_of: ["BUSL-1.1", "MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
@@ -129,8 +129,8 @@ class Gmlx < Formula
   end
 
   resource "filelock" do
-    url "https://files.pythonhosted.org/packages/5b/2a/4b1ea3f2180be251a5cff1e70c8a5b7994ffa5c8eab8937901f8a9db58fe/filelock-4.0.10-py3-none-any.whl"
-    sha256 "698048d158dc3c9e18cc5e88b3efdd4bd0e77d76686b22adb4511cc4b2c2f0db"
+    url "https://files.pythonhosted.org/packages/da/a1/b047e1c486a2c66283633b7dbb73872ca16ca1ce6a426f70d4d037fc8e1c/filelock-4.0.12-py3-none-any.whl"
+    sha256 "5f17ee83ecee8a6f3e389c75822fb70a1c2f0506b99438a6dffa1d56793588c8"
   end
 
   resource "fsspec" do
@@ -149,8 +149,8 @@ class Gmlx < Formula
   end
 
   resource "hf-xet" do
-    url "https://files.pythonhosted.org/packages/4b/69/55b8dcf636142ae660fec1869fcac14c4da2e8412e14d6eee1523be77e9f/hf_xet-1.6.0-cp38-abi3-macosx_11_0_arm64.whl"
-    sha256 "f0906082d9932ae0c0057fa194041c22b4e2cdb46b2592ef3b91f020d62a081a"
+    url "https://files.pythonhosted.org/packages/c3/47/a26ebdce7056a61e931f228439bc0ab08cbec239d1690f965e5e637cba79/hf_xet-1.7.0-cp38-abi3-macosx_11_0_arm64.whl"
+    sha256 "59fba37039233c7fcbe196817d6cdcf1b40dfb17b410f229d85b0cf0a1848da4"
   end
 
   resource "httpcore" do
@@ -249,8 +249,8 @@ class Gmlx < Formula
   end
 
   resource "mlx-audio" do
-    url "https://files.pythonhosted.org/packages/69/6b/352b0fd31af2a2ef6bb3f70d573fa7dd2a4c750e3245505a72f10d2f2d41/mlx_audio-0.5.7-py3-none-any.whl"
-    sha256 "2f2b3c666241ff4a45df7e92057d176b3c1079541a5e9062a0d1e8088db5c123"
+    url "https://files.pythonhosted.org/packages/77/b4/5fe7a122537321a1305c95d57280542691deddcd102fa8e84149525108bb/mlx_audio-0.5.8-py3-none-any.whl"
+    sha256 "cf2eaef3d5d965d3a0a5c98ab68d4867db51daace190a77b3b9576577a7d2eab"
   end
 
   resource "mlx-embeddings" do
@@ -599,13 +599,13 @@ class Gmlx < Formula
   end
 
   resource "transformers" do
-    url "https://files.pythonhosted.org/packages/2d/3b/f84d7d12886147c5267216ed6c57d1163e68d24a89b2ad29d835a7089463/transformers-5.18.0-py3-none-any.whl"
-    sha256 "d79e5a515a572ee3deb33eb0d578be47d91e70c75d54cf21bf6eede6edef14a9"
+    url "https://files.pythonhosted.org/packages/b9/59/1e7f1212c215c73690ae6cab4678efe1555ff985953e145d88cc212859b0/transformers-5.19.0-py3-none-any.whl"
+    sha256 "afcd2dd5f603ed28c1e1fcb00a338ccbb4ef5f878ed289635df8b58187afb518"
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/dc/bf/205d0004930ede8f542fb58f601526fccf4ae7626075ca1e6c4de5d3d652/typer-0.27.2-py3-none-any.whl"
-    sha256 "b3a5fc4342d5fc8fda8fc3010b1cf117e9249aab7fae800c2eff62fd3842d97d"
+    url "https://files.pythonhosted.org/packages/07/ea/2e31b67051e91a133189e9c000c222502ddc6969856416de0d095de4c0b0/typer-0.27.3-py3-none-any.whl"
+    sha256 "e50022f28b82a86313e54501317a1db64bf8f8d036ff8cfe5ca7e47675454aff"
   end
 
   resource "typing-extensions" do
@@ -639,8 +639,8 @@ class Gmlx < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/33/7c/c7bb03da54de7ac5a08753e186b963f91847b04ed8ae5be136a4d5f52b75/wcwidth-0.9.1-cp310-abi3-macosx_11_0_arm64.whl"
-    sha256 "40d936d72c9bdc10df43f93a8be502bc5024b487259139f66a328722c07f34a9"
+    url "https://files.pythonhosted.org/packages/a0/07/cb6940e81134b7ed25fa312ee9ab536a63db0793b149f88a90e603ceace9/wcwidth-0.9.2-cp310-abi3-macosx_11_0_arm64.whl"
+    sha256 "ae0800c5339423cc53d33a266ad264b42ba8aaa16d4464f6e6b1bee607f50b17"
   end
 
   resource "weasel" do
