@@ -4,8 +4,8 @@ class Gmlx < Formula
 
   desc "Run, serve and fine-tune GGUF models natively on MLX"
   homepage "https://asher.github.io/gmlx/"
-  url "https://files.pythonhosted.org/packages/01/bc/cb9f246c7ea21f335e894dda4ca5b278a71e38d395f9f4e547a6d28e7c40/gmlx-0.4.21.tar.gz"
-  sha256 "c6d3137c973869f0bea89be2f79dd243e8147810dd39b3565972059e7dd561d9"
+  url "https://files.pythonhosted.org/packages/f8/4b/0a1d4979f05b8d2dc109d34df0b89b6596424d21f107ef2ff5677dc12374/gmlx-0.4.22.tar.gz"
+  sha256 "af5ab5280d87eedd6f05a0cd6201004a391f8fcc0d24a8bf49ce6b6eab94f280"
   license all_of: ["BUSL-1.1", "MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
@@ -259,8 +259,8 @@ class Gmlx < Formula
   end
 
   resource "mlx-kquant" do
-    url "https://files.pythonhosted.org/packages/b1/54/73ab569b437744062373ba4049eac65ff32cb8797d1cf6de12389b7098d9/mlx_kquant-0.4.15-cp313-cp313-macosx_26_0_arm64.whl"
-    sha256 "bc005ea021d85ac7dc421aef5e37c04f45307ccef5b6001040902899d8bd61b3"
+    url "https://files.pythonhosted.org/packages/19/d4/d174338a622a687b814bb04dae443b2849971295741188888a6ed3b88320/mlx_kquant-0.4.16-cp313-cp313-macosx_26_0_arm64.whl"
+    sha256 "47ae80dd033f92b111e2be1496a21a649bfafbf05cca55907fb7fa5db360087d"
   end
 
   resource "mlx-lm" do
