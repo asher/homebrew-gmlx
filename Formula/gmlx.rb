@@ -4,8 +4,8 @@ class Gmlx < Formula
 
   desc "Run, serve and fine-tune GGUF models natively on MLX"
   homepage "https://asher.github.io/gmlx/"
-  url "https://files.pythonhosted.org/packages/f8/4b/0a1d4979f05b8d2dc109d34df0b89b6596424d21f107ef2ff5677dc12374/gmlx-0.4.22.tar.gz"
-  sha256 "af5ab5280d87eedd6f05a0cd6201004a391f8fcc0d24a8bf49ce6b6eab94f280"
+  url "https://files.pythonhosted.org/packages/bf/68/89e99d3e8c74ec95cc50a0abcceef282ea342b97ce9e6dedf1780993c15d/gmlx-0.4.23.tar.gz"
+  sha256 "cb1dbc2e4368b834d20f274c93e25a1f4fac4a33618abf2711ad6d623b2f4c4a"
   license all_of: ["BUSL-1.1", "MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
@@ -259,8 +259,8 @@ class Gmlx < Formula
   end
 
   resource "mlx-kquant" do
-    url "https://files.pythonhosted.org/packages/19/d4/d174338a622a687b814bb04dae443b2849971295741188888a6ed3b88320/mlx_kquant-0.4.16-cp313-cp313-macosx_26_0_arm64.whl"
-    sha256 "47ae80dd033f92b111e2be1496a21a649bfafbf05cca55907fb7fa5db360087d"
+    url "https://files.pythonhosted.org/packages/d5/53/260c2ea7fb25639bb0d721b50883a67994bdac647682991ec50b763e80f9/mlx_kquant-0.4.17-cp313-cp313-macosx_26_0_arm64.whl"
+    sha256 "deebbb7c5347b376bab0c8cbb49a8197b8f5c29af046f5e1e6f6ec3b4d15f8f4"
   end
 
   resource "mlx-lm" do
@@ -354,18 +354,18 @@ class Gmlx < Formula
   end
 
   resource "pycparser" do
-    url "https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl"
-    sha256 "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
+    url "https://files.pythonhosted.org/packages/99/ce/b3ae9ee0324d991c860187be2a6ee436d27a3d02397eaddbb101ec901f3d/pycparser-3.1-py3-none-any.whl"
+    sha256 "f09d358c840bd147b79e55f2bc494f18ea869dc897f5852a8f5766b74f787882"
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/eb/47/c95ffc2009878c7aac0c5e08528022dcb885933252a88b5f170058014464/pydantic-2.13.5-py3-none-any.whl"
-    sha256 "346a034f080da3755d8e9cb5e00e8b07de1d39e4f6e2c87d8ab7cafa0b269a73"
+    url "https://files.pythonhosted.org/packages/2d/eb/9146591cc819d040475bf7f2be786710c7f7eb8083693bf859728da2ca9c/pydantic-2.14.0-py3-none-any.whl"
+    sha256 "15fab1bea6f1dc5003b54fc2ecab230c1fd1dbade2acd4addc52d81e32416d4b"
   end
 
   resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/21/43/6323b1f8b217780454c61304bcd2b38ae4762f50754414124603ccc90bb2/pydantic_core-2.46.5-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "f332f0e72a5a0400141f830744e141bf9f97917878dbe968669e8a7fefea78ff"
+    url "https://files.pythonhosted.org/packages/c5/41/7f299b2ecf0ddbec8c2a68057ed53d29458ea5b0850615570849c454dd89/pydantic_core-2.50.0-cp313-cp313-macosx_11_0_arm64.whl"
+    sha256 "8f16bc5bb12f4c581b0f40facc28dbf286db32d1bf4e7e4f4c4e0f7f4e34ecf9"
   end
 
   resource "pydantic-settings" do
