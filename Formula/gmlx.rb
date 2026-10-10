@@ -4,8 +4,8 @@ class Gmlx < Formula
 
   desc "Run, serve and fine-tune GGUF models natively on MLX"
   homepage "https://asher.github.io/gmlx/"
-  url "https://files.pythonhosted.org/packages/bf/68/89e99d3e8c74ec95cc50a0abcceef282ea342b97ce9e6dedf1780993c15d/gmlx-0.4.23.tar.gz"
-  sha256 "cb1dbc2e4368b834d20f274c93e25a1f4fac4a33618abf2711ad6d623b2f4c4a"
+  url "https://files.pythonhosted.org/packages/44/66/a37d2cf728410910b0f8e7daaf5a3132960b45c24d49718657fadc2efa0b/gmlx-0.4.24.tar.gz"
+  sha256 "70f716ec2753ac5d9087a400d6801cb2ff7a29cf992e06c57133bcc3a2b7fc21"
   license all_of: ["BUSL-1.1", "MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
@@ -129,8 +129,8 @@ class Gmlx < Formula
   end
 
   resource "filelock" do
-    url "https://files.pythonhosted.org/packages/da/a1/b047e1c486a2c66283633b7dbb73872ca16ca1ce6a426f70d4d037fc8e1c/filelock-4.0.12-py3-none-any.whl"
-    sha256 "5f17ee83ecee8a6f3e389c75822fb70a1c2f0506b99438a6dffa1d56793588c8"
+    url "https://files.pythonhosted.org/packages/ee/86/032133892a5de43b5a98200b01aadcad68cc255e274a762f08b8a76d2912/filelock-4.1.0-py3-none-any.whl"
+    sha256 "2ce9818e3e2d8f284c1a964414447ef148d42a5fd5e2a477a7118e574b293ec1"
   end
 
   resource "fsspec" do
@@ -158,6 +158,11 @@ class Gmlx < Formula
     sha256 "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55"
   end
 
+  resource "httpcore2" do
+    url "https://files.pythonhosted.org/packages/09/ba/a4568248771ce81957bfb7cc600264a40fbcda092391ee1c415c50be4bea/httpcore2-2.13.1-py3-none-any.whl"
+    sha256 "e1e05d4f25f7d7d496bfb96748f6f4b67657b03da069b3a68c36069f3db73d0a"
+  end
+
   resource "httpx" do
     url "https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl"
     sha256 "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad"
@@ -168,9 +173,14 @@ class Gmlx < Formula
     sha256 "0ac1c9fe3c0afad2e0ebb25a934a59f4c7823b60792691f779fad2c5568830fc"
   end
 
+  resource "httpx2" do
+    url "https://files.pythonhosted.org/packages/d8/9c/6fe8931fd9f381042a9e4c7d5a7b4cbf7016b252bec0c99a49fce42c3326/httpx2-2.13.1-py3-none-any.whl"
+    sha256 "6dff50fabc270ee5fd25d845d0b078ed20564579744d6d962850975996d2f9a4"
+  end
+
   resource "huggingface-hub" do
-    url "https://files.pythonhosted.org/packages/fc/16/963096d224b80909432dc16561a615fd33d2d13beef3ce4c63fa25e40867/huggingface_hub-1.33.0-py3-none-any.whl"
-    sha256 "04e434b06e100eddbce9a6e817d72693a7884b10a79bd67ab48080d5c07eb899"
+    url "https://files.pythonhosted.org/packages/eb/b0/0f7b430fd100b3a3b037fdbb314878200241082e607b3383c63d91a13a72/huggingface_hub-2.2.0-py3-none-any.whl"
+    sha256 "1667f145dc56dc210d60966069397df9ecfca9607a5d43db88b308c89dae56b3"
   end
 
   resource "idna" do
@@ -259,8 +269,8 @@ class Gmlx < Formula
   end
 
   resource "mlx-kquant" do
-    url "https://files.pythonhosted.org/packages/d5/53/260c2ea7fb25639bb0d721b50883a67994bdac647682991ec50b763e80f9/mlx_kquant-0.4.17-cp313-cp313-macosx_26_0_arm64.whl"
-    sha256 "deebbb7c5347b376bab0c8cbb49a8197b8f5c29af046f5e1e6f6ec3b4d15f8f4"
+    url "https://files.pythonhosted.org/packages/d5/c6/586a43abe39f0c8b430f424f3dc659520be9242fca35ad02eb3cc995c5c3/mlx_kquant-0.4.18-cp313-cp313-macosx_26_0_arm64.whl"
+    sha256 "7437cee33cd2e4a9e7bc24f95acf0e656d68f01ae5ed675c3861400ab5c85e5d"
   end
 
   resource "mlx-lm" do
@@ -314,8 +324,8 @@ class Gmlx < Formula
   end
 
   resource "numpy" do
-    url "https://files.pythonhosted.org/packages/ab/2a/98282aa5b8f58b1157d440bb6282eed47e3632a5de53a714fbab17e659fe/numpy-2.5.3-cp313-cp313-macosx_14_0_arm64.whl"
-    sha256 "f9a2353b37a1a9e78fd82b27ad7e2a32a2d036604d18f02b05e3136c62ca3b09"
+    url "https://files.pythonhosted.org/packages/e2/84/6a3d75b3ba3dfe84ac0053450753d1e6d250a8bf80f66474cc46d1fb643f/numpy-2.5.4-cp313-cp313-macosx_14_0_arm64.whl"
+    sha256 "6d6a71b9d9a97c03633aa12565ef2825ffa036cc1d99cfd50dacf0f128af4fe2"
   end
 
   resource "opencv-python" do
@@ -354,8 +364,8 @@ class Gmlx < Formula
   end
 
   resource "pycparser" do
-    url "https://files.pythonhosted.org/packages/99/ce/b3ae9ee0324d991c860187be2a6ee436d27a3d02397eaddbb101ec901f3d/pycparser-3.1-py3-none-any.whl"
-    sha256 "f09d358c840bd147b79e55f2bc494f18ea869dc897f5852a8f5766b74f787882"
+    url "https://files.pythonhosted.org/packages/90/11/0e6f11117525ff0eec40ebac3d313376f102df93ca44ad9e893ee85e4f89/pycparser-3.11-py3-none-any.whl"
+    sha256 "51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80"
   end
 
   resource "pydantic" do
@@ -584,8 +594,8 @@ class Gmlx < Formula
   end
 
   resource "tokenizers" do
-    url "https://files.pythonhosted.org/packages/67/49/22da045a91732384d3a3771816bf188dc5a1f702c32e635afa7c679c0bef/tokenizers-0.23.2-cp310-abi3-macosx_11_0_arm64.whl"
-    sha256 "986670e43691469dcee610ea0f846f91a8f84e91fc6f7a48d4c064414c0ec2bf"
+    url "https://files.pythonhosted.org/packages/b2/72/01e49f032bb346e5aaf06c10c74fe8aeec847173adbadd66eb7c53054bf2/tokenizers-0.23.3-cp310-abi3-macosx_11_0_arm64.whl"
+    sha256 "68649e97d5b43c44c031d8d848874a6eecae8f8fe40ea989aa777a5a83aca716"
   end
 
   resource "torch" do
@@ -601,6 +611,11 @@ class Gmlx < Formula
   resource "transformers" do
     url "https://files.pythonhosted.org/packages/b9/59/1e7f1212c215c73690ae6cab4678efe1555ff985953e145d88cc212859b0/transformers-5.19.0-py3-none-any.whl"
     sha256 "afcd2dd5f603ed28c1e1fcb00a338ccbb4ef5f878ed289635df8b58187afb518"
+  end
+
+  resource "truststore" do
+    url "https://files.pythonhosted.org/packages/19/97/56608b2249fe206a67cd573bc93cd9896e1efb9e98bce9c163bcdc704b88/truststore-0.10.4-py3-none-any.whl"
+    sha256 "adaeaecf1cbb5f4de3b1959b42d41f6fab57b2b1666adb59e89cb0b53361d981"
   end
 
   resource "typer" do
