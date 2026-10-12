@@ -4,8 +4,8 @@ class Gmlx < Formula
 
   desc "Run, serve and fine-tune GGUF models natively on MLX"
   homepage "https://asher.github.io/gmlx/"
-  url "https://files.pythonhosted.org/packages/44/66/a37d2cf728410910b0f8e7daaf5a3132960b45c24d49718657fadc2efa0b/gmlx-0.4.24.tar.gz"
-  sha256 "70f716ec2753ac5d9087a400d6801cb2ff7a29cf992e06c57133bcc3a2b7fc21"
+  url "https://files.pythonhosted.org/packages/d1/50/a7ba22883c3256989c019a95cb37ca8d5b5460d5abb28b16d6d9e67db626/gmlx-0.5.0.tar.gz"
+  sha256 "924d6afa068a4ba63174c9c74bccdb189ab7ef31fd856fd9cc3729dc781eae95"
   license all_of: ["BUSL-1.1", "MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
@@ -129,8 +129,8 @@ class Gmlx < Formula
   end
 
   resource "filelock" do
-    url "https://files.pythonhosted.org/packages/ee/86/032133892a5de43b5a98200b01aadcad68cc255e274a762f08b8a76d2912/filelock-4.1.0-py3-none-any.whl"
-    sha256 "2ce9818e3e2d8f284c1a964414447ef148d42a5fd5e2a477a7118e574b293ec1"
+    url "https://files.pythonhosted.org/packages/d7/8b/f837f52905395ba4510fe61f753c24833fb0a9c76e21267bb9f828b664a9/filelock-4.1.1-py3-none-any.whl"
+    sha256 "3f4a557945a7b0f95efeb1f432267affe5d45ac8ddde2aed1b97ebb62382c089"
   end
 
   resource "fsspec" do
@@ -254,8 +254,8 @@ class Gmlx < Formula
   end
 
   resource "mlx" do
-    url "https://files.pythonhosted.org/packages/8f/ba/ecbbafebc6019946cce4bc61ec9c259e66d80aedd435d9072d84912e8521/mlx-0.32.1-cp313-cp313-macosx_26_0_arm64.whl"
-    sha256 "792fb47c5205c9a2761b9f0341bf7c4b5486ded93f4c14f55d99d0e950b1cb7a"
+    url "https://files.pythonhosted.org/packages/53/a9/70bf746c2cd13a198a429e33244d2f072ecd0c89508299a636529d3317cb/mlx-0.32.3-cp313-cp313-macosx_26_0_arm64.whl"
+    sha256 "75333afef55819afd2a31e87ffbed0bf59f379bca21771e6b13a95a675e4c85b"
   end
 
   resource "mlx-audio" do
@@ -263,29 +263,14 @@ class Gmlx < Formula
     sha256 "cf2eaef3d5d965d3a0a5c98ab68d4867db51daace190a77b3b9576577a7d2eab"
   end
 
-  resource "mlx-embeddings" do
-    url "https://files.pythonhosted.org/packages/78/18/05a341c811c9ee04f227cdbc064a635b84202cb8f85471adfdeebe0da32d/mlx_embeddings-0.1.0-py2.py3-none-any.whl"
-    sha256 "3fe1feaa786d3b546ccd8909f6b4c22bd3bcce097616fce83173ededd30e6630"
-  end
-
   resource "mlx-kquant" do
-    url "https://files.pythonhosted.org/packages/d5/c6/586a43abe39f0c8b430f424f3dc659520be9242fca35ad02eb3cc995c5c3/mlx_kquant-0.4.18-cp313-cp313-macosx_26_0_arm64.whl"
-    sha256 "7437cee33cd2e4a9e7bc24f95acf0e656d68f01ae5ed675c3861400ab5c85e5d"
-  end
-
-  resource "mlx-lm" do
-    url "https://files.pythonhosted.org/packages/90/02/9a67b8e4f87e3e2e5cd7b1ad79304b93c09a0db6af34bee75e6551c06c60/mlx_lm-0.31.3-py3-none-any.whl"
-    sha256 "758cfddf1180053b7613db76fad3d246a331a2a905808e1164a275621fc983b8"
+    url "https://files.pythonhosted.org/packages/1b/a2/6ef37ea0d2f62b93dcfa3f98c1a6b19d5b5fd2047ddcc62f7e5fe3e8642e/mlx_kquant-0.5.0-cp313-cp313-macosx_26_0_arm64.whl"
+    sha256 "ac5027fb4fa547b4bc8269b157451b3b8065f7be251577fb3f62b51829a7d17d"
   end
 
   resource "mlx-metal" do
-    url "https://files.pythonhosted.org/packages/89/70/a0dee131f1a3698334f6571ac143672d6b9c8a90f7974087f3e5626aece4/mlx_metal-0.32.1-py3-none-macosx_26_0_arm64.whl"
-    sha256 "b23ebfeb70b34d64083beea22d3de7e0e680665306618524a2229d19bcfc98c1"
-  end
-
-  resource "mlx-vlm" do
-    url "https://files.pythonhosted.org/packages/bf/c7/7e7489375b4fd730c7370933c9567c827e7497c3b21562bf0a1ea6db131c/mlx_vlm-0.6.15-py3-none-any.whl"
-    sha256 "ebd8dd939dcfa1f3a811c225d5c3ce3dffefb4a99d300fbe5fb638b5e45b6e61"
+    url "https://files.pythonhosted.org/packages/ee/38/cb985ca86979ca6f954a2a45eb6e3f9b787c5d55227564a04f87953b3d56/mlx_metal-0.32.3-py3-none-macosx_26_0_arm64.whl"
+    sha256 "34ae9b83ad2f0ccdd3e5d48ec35176e7119f57069eef187122916dc941a4ae1f"
   end
 
   resource "mlx-whisper" do
@@ -369,13 +354,13 @@ class Gmlx < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/2d/eb/9146591cc819d040475bf7f2be786710c7f7eb8083693bf859728da2ca9c/pydantic-2.14.0-py3-none-any.whl"
-    sha256 "15fab1bea6f1dc5003b54fc2ecab230c1fd1dbade2acd4addc52d81e32416d4b"
+    url "https://files.pythonhosted.org/packages/35/ea/a56b9fe5066f3537b7882f77e9c5dfb26d8c2eefdaed9b5fc73d57b4dc22/pydantic-2.14.1-py3-none-any.whl"
+    sha256 "9195d967ec791692a04438115466764fb8b9a27b31f14a760437694f40d6b454"
   end
 
   resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/c5/41/7f299b2ecf0ddbec8c2a68057ed53d29458ea5b0850615570849c454dd89/pydantic_core-2.50.0-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "8f16bc5bb12f4c581b0f40facc28dbf286db32d1bf4e7e4f4c4e0f7f4e34ecf9"
+    url "https://files.pythonhosted.org/packages/f7/b9/c720e56858d4e1539503297ed37063e0c08e0f3541c41b777f6a800f75fa/pydantic_core-2.50.1-cp313-cp313-macosx_11_0_arm64.whl"
+    sha256 "0c003c3b7f49debb893d2d85ae099ac5959c9839e2f330fadb1fcdf7a6594482"
   end
 
   resource "pydantic-settings" do
@@ -663,11 +648,6 @@ class Gmlx < Formula
     sha256 "89518acee027f49d743126c3502d35e6dd14f5768be5c37c9af47c171b6005cc"
   end
 
-  resource "websockets" do
-    url "https://files.pythonhosted.org/packages/ca/1e/621bb93f35ab7d337be98f1958294437527e2a1797089b5e734ddc5eec5f/websockets-17.2-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "cf8811d285acc91216368df7fb55cc8c9bf6fcd90eea42429c7186c7385a12b9"
-  end
-
   resource "wrapt" do
     url "https://files.pythonhosted.org/packages/4a/13/5d15ef0e2f42d5f084930dc4863e6e52c160c28301c8780aae170c58421c/wrapt-2.5.0-cp313-cp313-macosx_11_0_arm64.whl"
     sha256 "c57ddae24cf72eb6bd18112638a987cafe6109d90f2df111e6934362cc03ac1a"
@@ -691,7 +671,7 @@ class Gmlx < Formula
     pip = [python, "-m", "pip", "--python=#{libexec}/bin/python"]
     install = ["install", "--no-index", "--find-links=#{dist}", "--no-build-isolation"]
     system(*pip, *install, "setuptools")
-    system(*pip, *install, "#{buildpath}[all]")
+    system(*pip, *install, "#{buildpath}[all,video]")
     system(*pip, "check")
 
     bin.install_symlink libexec/"bin/gmlx"
@@ -707,6 +687,7 @@ class Gmlx < Formula
 
   test do
     assert_match version.to_s, shell_output("#{bin}/gmlx --version")
-    system libexec/"bin/python", "-c", "import mlx_kquant, mlx_vlm, gmlx.commands.cli"
+    # The copy's utils imports PIL and requests, so a missing one fails here.
+    system libexec/"bin/python", "-c", "import mlx_kquant, gmlx._vendor.mlx_vlm.utils, gmlx.commands.cli"
   end
 end
