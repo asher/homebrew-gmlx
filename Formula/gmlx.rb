@@ -4,8 +4,8 @@ class Gmlx < Formula
 
   desc "Run, serve and fine-tune GGUF models natively on MLX"
   homepage "https://asher.github.io/gmlx/"
-  url "https://files.pythonhosted.org/packages/b2/dc/e016fe155508f94b47f5341e0a2cbefbca45f0960ad2819a9f1f83823b76/gmlx-0.5.2.tar.gz"
-  sha256 "73e593c7f15e4838b8f195fdcea95aa0f07d1ddae53187fdae867f6658cace1a"
+  url "https://files.pythonhosted.org/packages/e8/d6/2cd0535b1cd398a84ac2b3e54e40057cc8efb0dc52d764fe28ab7e9b22c7/gmlx-0.5.3.tar.gz"
+  sha256 "a89291e5785d1fe45d78d81603e80523f5a50130a49bcc2085148d397aa8abe1"
   license all_of: ["BUSL-1.1", "MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
@@ -89,8 +89,8 @@ class Gmlx < Formula
   end
 
   resource "confection" do
-    url "https://files.pythonhosted.org/packages/8d/e4/d66708bdf0d92fb4d49b22cdff4b10cec38aca5dcd7e81d909bb55c65cd7/confection-1.3.3-py3-none-any.whl"
-    sha256 "b9fef9ee84b237ef4611ec3eb5797b70e13063e6310ad9f15536373f5e313c82"
+    url "https://files.pythonhosted.org/packages/1d/65/411a5a4a83c98c907c5a76906fad35c6841e7ca9370165a625696ffdc71a/confection-1.3.4-py3-none-any.whl"
+    sha256 "6c2e1ae87de7d989a79bdb62977eb9c43c28fb3371f3462492667eb0520e6796"
   end
 
   resource "cryptography" do
@@ -529,8 +529,8 @@ class Gmlx < Formula
   end
 
   resource "spacy" do
-    url "https://files.pythonhosted.org/packages/29/f8/80f9ddf288c494b3a7b737bff3b938ef70328c49aaf0a90738aa90b638b8/spacy-3.8.16-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "ce120d4077050352f344b987354be3e3fddb207436b537cf91a891837657ce2c"
+    url "https://files.pythonhosted.org/packages/c3/5d/21fb99a35b667236efbb4d2ad479d5b8164dec568716ece4540e3572ce94/spacy-3.8.18-cp313-cp313-macosx_11_0_arm64.whl"
+    sha256 "807178983c55dee9d726c2054bd947c0d0545fe8183619eb7d50a7392bf61c0a"
   end
 
   resource "spacy-legacy" do
@@ -594,8 +594,8 @@ class Gmlx < Formula
   end
 
   resource "transformers" do
-    url "https://files.pythonhosted.org/packages/96/b6/724faefed06913dd3e42e0476fe2c42448675c42f687a12bf810aa098005/transformers-5.20.2-py3-none-any.whl"
-    sha256 "7ae75dbc1fb3922aff1b6c97b9e5479d6cf26fd86a8866bfb71324190479f807"
+    url "https://files.pythonhosted.org/packages/73/fa/fb638d54bffff44700c8d487608c1f2872823e606fbd043b3c29c93236cf/transformers-5.21.0-py3-none-any.whl"
+    sha256 "8803a8712932aa3441c1e8bb340e66d5e3eca079fe65d9b717ede2f3ead01c79"
   end
 
   resource "truststore" do
@@ -649,8 +649,8 @@ class Gmlx < Formula
   end
 
   resource "weasel" do
-    url "https://files.pythonhosted.org/packages/0a/07/57ebf7a6798b016c064bd0ca81b4c6a99daa4dc377b898bc7b41eb6b5af0/weasel-1.0.0-py3-none-any.whl"
-    sha256 "89518acee027f49d743126c3502d35e6dd14f5768be5c37c9af47c171b6005cc"
+    url "https://files.pythonhosted.org/packages/89/66/53b57003567d506e2f0f7b9859a4d2e6e748d3f0ed8f494b98f684d6696d/weasel-1.0.1-py3-none-any.whl"
+    sha256 "a7d37540e4b5e53c783bae292d2e5dfaa8f6054160cec633e0782afce89c504d"
   end
 
   resource "wrapt" do
