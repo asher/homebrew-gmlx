@@ -4,8 +4,8 @@ class Gmlx < Formula
 
   desc "Run, serve and fine-tune GGUF models natively on MLX"
   homepage "https://asher.github.io/gmlx/"
-  url "https://files.pythonhosted.org/packages/a3/5d/66c2619bc10ab26dfcee43be5ac6f3471ec37ebe9898ccde45d614477e5e/gmlx-0.5.4.tar.gz"
-  sha256 "b2cbb3967b09fae7d2858617db8191a7df34eed0c01db610c0f8afda9781f51a"
+  url "https://files.pythonhosted.org/packages/c4/1b/f1b97df4934f62b817e0a79a31e1e07510b58fd3e14dfefc94a20e203e30/gmlx-0.5.5.tar.gz"
+  sha256 "67bb441f316a7a52f5c6259f5bff019f190c404f0a4ca4abd4c51ba0a45b6660"
   license all_of: ["BUSL-1.1", "MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
@@ -34,8 +34,8 @@ class Gmlx < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl"
-    sha256 "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101"
+    url "https://files.pythonhosted.org/packages/a9/16/7757fb84c819accc7d7e9af5291b261e4abb8627ee040f99e7d35ef2457a/anyio-4.16.0-py3-none-any.whl"
+    sha256 "c66ae634e0b8228396b801741beb3294326d4b6102f7bba4041c0dfb58c29026"
   end
 
   resource "attrs" do
@@ -74,8 +74,8 @@ class Gmlx < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl"
-    sha256 "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360"
+    url "https://files.pythonhosted.org/packages/31/7d/164b7ffc8624fe9efb4221bf9af485d5c1e41b9ae118045d2b6dc5457d8b/click-8.5.1-py3-none-any.whl"
+    sha256 "8bb5376d2006950386f8c6427613334a2acadc5f559cb80e638d00b4df957e37"
   end
 
   resource "cloudpathlib" do
@@ -99,8 +99,8 @@ class Gmlx < Formula
   end
 
   resource "csvw" do
-    url "https://files.pythonhosted.org/packages/fe/9e/a4e6f6aea5f0dedd53523c653c8f368eb6a2392bce09d36ac36de1db2c0f/csvw-4.1.1-py2.py3-none-any.whl"
-    sha256 "fce2c461899290771eaec28c770e2fd0f6bc1324edb81d688c89e09cf222fcdb"
+    url "https://files.pythonhosted.org/packages/13/24/5cc1856702552036b26dd0d3976785eb5970c0730418369c4c822a51167d/csvw-4.2.0-py2.py3-none-any.whl"
+    sha256 "23197270be72dd2cec99a7adb90f8da76d9e56f1c7f68a436f381fceea26b84f"
   end
 
   resource "cymem" do
@@ -129,8 +129,8 @@ class Gmlx < Formula
   end
 
   resource "filelock" do
-    url "https://files.pythonhosted.org/packages/e0/1b/5e74289a1878e666bb4b65fe5805a04cafcac2aa5f519ef1ead67ef91c56/filelock-4.2.4-py3-none-any.whl"
-    sha256 "301241438c57936ef93f4243a94f2559022268bfcf9b375a9a72eb0f8db8358e"
+    url "https://files.pythonhosted.org/packages/00/05/76184fe08339723d643ab47887a8e4de8f2921ca4e008617ab7490af7857/filelock-4.2.9-py3-none-any.whl"
+    sha256 "a379c50a729e5b68c8519a4d26489f755d9769960a236ecd838190e2a78db2e9"
   end
 
   resource "fsspec" do
@@ -149,8 +149,8 @@ class Gmlx < Formula
   end
 
   resource "hf-xet" do
-    url "https://files.pythonhosted.org/packages/9c/7b/e3fada39f556579503808a93e51231bb2f926f4633c038bc9c5237f6c39c/hf_xet-1.7.1-cp38-abi3-macosx_11_0_arm64.whl"
-    sha256 "46d09bc6200388622f6aeb6db6d7b47060f63c483b6fb637e0e13e87470bfabf"
+    url "https://files.pythonhosted.org/packages/d4/f2/ef25e2085e92dcaeaa675331e443923aed2006f6fe2d984e15d8b8d40766/hf_xet-1.8.0-cp38-abi3-macosx_11_0_arm64.whl"
+    sha256 "3e8934784425781f0f779b91044df441f3a7af4dab47375d7e3aeaecbb8eecb4"
   end
 
   resource "httpcore" do
@@ -249,8 +249,8 @@ class Gmlx < Formula
   end
 
   resource "miniaudio" do
-    url "https://files.pythonhosted.org/packages/bd/d1/071a560000c8ce903dc919968ecce40fbe7a73213ac399051b887184f8a3/miniaudio-1.71-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "d9dc15eff711bcfc62a9d05e0c78e4bc34821a455595e049629f2fea7491a523"
+    url "https://files.pythonhosted.org/packages/84/c3/07ceb6d4edfcd6883dd48f901548132d53dc6860a9fd30c35cd92d932b08/miniaudio-1.72-cp313-cp313-macosx_11_0_arm64.whl"
+    sha256 "1b13f6046d737a6ce5febb04d184df4577aea0499f9d7c078e2cc0d6b9575725"
   end
 
   resource "mlx" do
@@ -264,8 +264,8 @@ class Gmlx < Formula
   end
 
   resource "mlx-kquant" do
-    url "https://files.pythonhosted.org/packages/d1/72/5337b4801c61359bd3a0c04df7246f8576145871537692ba5b1c59d748b8/mlx_kquant-0.5.8-cp313-cp313-macosx_26_0_arm64.whl"
-    sha256 "ee4272985fddf6e68a8e933db4830440e0c653b030ad048d48f4d43a95a0137f"
+    url "https://files.pythonhosted.org/packages/42/5f/44cef6c4970b3b4d12b16e7de3e54475710fbd5ee1907d6c194fa41beea7/mlx_kquant-0.5.11-cp313-cp313-macosx_26_0_arm64.whl"
+    sha256 "fce0b7ae4dbdaa6914583e75e7d33ad6646b6a462c11395e1d252d00a02fdbc2"
   end
 
   resource "mlx-metal" do
@@ -354,13 +354,13 @@ class Gmlx < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/97/01/c71a71258b58659c72504e5fd65b451f6e36e34dc931d0b237ded213c814/pydantic-2.14.2-py3-none-any.whl"
-    sha256 "7efbf7507b937931cd32a5755acb00ea1cf5ccb1d4e8067a5850d5069e382118"
+    url "https://files.pythonhosted.org/packages/72/b8/b864503789ef5c58597d2a7b4adbee62c26440ab1e682581fc6838df8947/pydantic-2.14.3-py3-none-any.whl"
+    sha256 "3f7b347782ab7e4cf4c798496ae3a82787d9f21ec12676a9c564355eeef8daa8"
   end
 
   resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/f7/0b/7605223654ed4e777d05668e914d32b476b1fa2bb756bff9820fe270456b/pydantic_core-2.50.2-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "7c539d452cba22f250103c7d1c00cbe9038eb705e657476e701c43374efd9f2e"
+    url "https://files.pythonhosted.org/packages/90/a9/fc89a632331882c4cb91b949003418e6f5085ddcf2c9b875d499682bca91/pydantic_core-2.50.4-cp313-cp313-macosx_11_0_arm64.whl"
+    sha256 "1239daaf063e62213ca1f34d96663900bd7510c42a786e843fd328af70e46445"
   end
 
   resource "pydantic-settings" do
@@ -379,28 +379,28 @@ class Gmlx < Formula
   end
 
   resource "pyobjc-core" do
-    url "https://files.pythonhosted.org/packages/1b/ed/a8bf040caf3704023d74086b7fb96cf4ed2e844e24bd94e5248ba214b700/pyobjc_core-12.2.2-cp313-cp313-macosx_10_13_universal2.whl"
-    sha256 "950bd2d9c74634398c4e3d24ef2f213d4e23d705083697464fa67afedc53c1ad"
+    url "https://files.pythonhosted.org/packages/d8/42/7b31511491d966b64183dfab325f022098e06e90c19a9cc8540de4f32588/pyobjc_core-13.0-cp313-cp313-macosx_10_13_universal2.whl"
+    sha256 "f29f7cdb3969268716017ada9516b94f6dd1c66c2e415274b5ac1169440da1a4"
   end
 
   resource "pyobjc-framework-applicationservices" do
-    url "https://files.pythonhosted.org/packages/b1/9d/fe660a822cc66a4261227b1597855c802b04dee56e5c8c153b9d5e6bcf0d/pyobjc_framework_applicationservices-12.2.2-cp313-cp313-macosx_10_13_universal2.whl"
-    sha256 "3b5693a377480cf127caa1c8c835b8620896971029c545d99d01aa31a2c38159"
+    url "https://files.pythonhosted.org/packages/6c/09/f6ac5efc6ad5c257d5661543fb23e7b87efb717137de539a7fb977b6158b/pyobjc_framework_applicationservices-13.0-cp313-cp313-macosx_10_13_universal2.whl"
+    sha256 "048819e0b8dd840110d1dd59ce253d86c81876da8d360f841bd2fd82dc5f8f34"
   end
 
   resource "pyobjc-framework-cocoa" do
-    url "https://files.pythonhosted.org/packages/db/e1/5d9b04ebb60042b9cb49adc2d33115e2f2c2e4ff7d548017bfaff8b7f536/pyobjc_framework_cocoa-12.2.2-cp313-cp313-macosx_10_13_universal2.whl"
-    sha256 "600b1723184ca094931330e79355274949965460e23de38628d601b5a967baf9"
+    url "https://files.pythonhosted.org/packages/01/b0/cb28ff4474a2f07bb9b64751112b3b40c421755297749c70810f4cadfc24/pyobjc_framework_cocoa-13.0-cp313-cp313-macosx_10_13_universal2.whl"
+    sha256 "bb0bcba2e4e9d05af875306e0e055cfc2f152fd602d5f2f1a54490adebebcd34"
   end
 
   resource "pyobjc-framework-coretext" do
-    url "https://files.pythonhosted.org/packages/6c/6d/e1a4c572c867bd40b705687c741a747083c6dbc63bd797bb6ed5c5108f6e/pyobjc_framework_coretext-12.2.2-cp313-cp313-macosx_10_13_universal2.whl"
-    sha256 "dbd0f288a859e359ee8e7ccf45bc2c489f38ae1087c21468b61d700433e0c91b"
+    url "https://files.pythonhosted.org/packages/a0/b0/12aa98f4b6c423f1d1cadd16897662874969f97d41221e9c326b16227bdc/pyobjc_framework_coretext-13.0-cp313-cp313-macosx_10_13_universal2.whl"
+    sha256 "85cff5f6c8fdd19bf7b047ad5a5fda4b91fcbdfbf025856e7b79a9b069eff157"
   end
 
   resource "pyobjc-framework-quartz" do
-    url "https://files.pythonhosted.org/packages/bb/ae/b515852dbe491171f2f2e2eb7739588a5eb7f36720a739545337b8c0d706/pyobjc_framework_quartz-12.2.2-cp313-cp313-macosx_10_13_universal2.whl"
-    sha256 "0ec9751904ef975bf0789d760dc4fadcb400edc4ffe4a736eb54971968babe5c"
+    url "https://files.pythonhosted.org/packages/1e/b4/d16db7d8b21e5d252a84de57bfa71fb73f09014105430525392d3b6f6c24/pyobjc_framework_quartz-13.0-cp313-cp313-macosx_10_13_universal2.whl"
+    sha256 "f7a4fab3bb1a78640135db257f2c75277d0931bad26c500e34b88480c33dece1"
   end
 
   resource "pyparsing" do
@@ -409,8 +409,8 @@ class Gmlx < Formula
   end
 
   resource "python-dateutil" do
-    url "https://files.pythonhosted.org/packages/5a/17/cebee01d1c0c1441174cf0456ddc91b280d79acb65340c05e41d77866ee8/python_dateutil-3.0.0-py2.py3-none-any.whl"
-    sha256 "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd"
+    url "https://files.pythonhosted.org/packages/2f/a9/52b89563d154433d79b51ed1eb4842bf7334cb2696891a7fe135618853d7/python_dateutil-4.0.0-py3-none-any.whl"
+    sha256 "a5e246f79eb80475e691bf93862cead98decd8a498cf53ba0516fcdc0f50dc1c"
   end
 
   resource "python-dotenv" do
@@ -419,8 +419,8 @@ class Gmlx < Formula
   end
 
   resource "python-multipart" do
-    url "https://files.pythonhosted.org/packages/e1/04/e8135ebd1ad02c56ec633277529b2602ff99ff634be76cdba5744cf554fd/python_multipart-0.0.32-py3-none-any.whl"
-    sha256 "ff6d3f776f16878c894e52e107296ffc890e913c611b1a4ec6c44e2821fe2e23"
+    url "https://files.pythonhosted.org/packages/dd/1b/6b1b4164ec734cac911460ab599bfbe46afedd42c5c9627fe4235942c314/python_multipart-0.0.33-py3-none-any.whl"
+    sha256 "8f16c07b36add9da6b2ee87d3efcaf0a45a6de9c3d0a5dd94e9ccf7675a7bc45"
   end
 
   resource "pyyaml" do
@@ -439,8 +439,8 @@ class Gmlx < Formula
   end
 
   resource "regex" do
-    url "https://files.pythonhosted.org/packages/11/9e/aa0f4cde3bc4688c1d58b0cd8415edd708339bc0bc401a195b0b1e8c8f0c/regex-2026.9.29-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "c90fcf7804ea0a54b896ce0f2b9565350220b8d4890fd0db461a476a4c687963"
+    url "https://files.pythonhosted.org/packages/f6/69/8bb15a5dcc3f8c9a57b069847fd65552bb7d1de22861e283e0139e5d5c71/regex-2026.11.9-cp313-cp313-macosx_11_0_arm64.whl"
+    sha256 "24c9479dc1215a1ebc96fedc9a0cd026240209e9b69aa223df411c443bdf1d93"
   end
 
   resource "requests" do
@@ -489,8 +489,8 @@ class Gmlx < Formula
   end
 
   resource "sentencepiece" do
-    url "https://files.pythonhosted.org/packages/34/db/f9ea1a6844b4fa5dfe2312095cd866a1f724cd0905054ab9d5991778ba50/sentencepiece-0.2.2-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "201a8e0f55501a76e08dbf2c54bc45f4642b379271e89c667d517bfbc2191f2a"
+    url "https://files.pythonhosted.org/packages/4e/86/7ccc32fa2059e6d9217e31fe6d502dcb24a5760013f850292f59b85dc115/sentencepiece-0.2.3-cp313-cp313-macosx_11_0_arm64.whl"
+    sha256 "80fe42d6ecd3860ee43327de31687f222af8e93f7d66e248d241cf9a0466eb73"
   end
 
   resource "setuptools" do
@@ -513,14 +513,9 @@ class Gmlx < Formula
     sha256 "82ab505a835e616f568ba6804555969e1b5699341d2b18eb27f0083b068b61ff"
   end
 
-  resource "six" do
-    url "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl"
-    sha256 "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
-  end
-
   resource "smart-open" do
-    url "https://files.pythonhosted.org/packages/eb/71/9cc12b1b8d5483696cc536ac7f9e113a4b0971d3a284cd6e74314e4236b4/smart_open-9.0.1-py3-none-any.whl"
-    sha256 "0d5fdbc8b90c90e57651bd369028afecbcf89273e3ff9cd5f66ddfee78a8302a"
+    url "https://files.pythonhosted.org/packages/1e/f0/905ab7bccf8b5beb95580a62573d80e8010e8931568e3492f9de8cba4d50/smart_open-9.0.2-py3-none-any.whl"
+    sha256 "945216f3360166fdb42fdee0e19b37f032caaf9429d5797bc06b01d2c75a71a4"
   end
 
   resource "sounddevice" do
@@ -544,13 +539,13 @@ class Gmlx < Formula
   end
 
   resource "srsly" do
-    url "https://files.pythonhosted.org/packages/28/18/30f3d382d97368f0eed48c579b9dfc41966ac10574990f7f310a7a0ad679/srsly-2.5.5-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "d7403588931cf0601d3c9eff00a821483e3899e8616cd6c1737a054353abd8bf"
+    url "https://files.pythonhosted.org/packages/d5/33/60c9ca29ed88e40865443256520cd53d73513d81173e125b9b2ff527e2df/srsly-2.5.6-cp313-cp313-macosx_11_0_arm64.whl"
+    sha256 "bf1a58f3f5cb4b0ec2851d3cc77ed513c6a0ffd9d21defd8105605654f1fe7bc"
   end
 
   resource "sse-starlette" do
-    url "https://files.pythonhosted.org/packages/cf/49/35053078cdfcf639237e8bee6dc6f34f1b3a3cc8d01800a1e213e1660ff6/sse_starlette-3.6.0-py3-none-any.whl"
-    sha256 "e4dfa4d237d2712cb2b4d4918eda9b457cd6b44bbecdc838af75de836565bafd"
+    url "https://files.pythonhosted.org/packages/6a/11/25cabac0a24fa76f58637d8671b549c90d818d69d26beecf0c59a3b186e0/sse_starlette-3.7.0-py3-none-any.whl"
+    sha256 "f1d3136caa12d129284fca3d2ded79bc9af943320b6472712955fea52a6d3eea"
   end
 
   resource "starlette" do
@@ -594,8 +589,8 @@ class Gmlx < Formula
   end
 
   resource "transformers" do
-    url "https://files.pythonhosted.org/packages/6b/21/f9d73a82d7d7d47fccab5acb2236f67b033106df2f2d193a01e9f229968f/transformers-5.22.0-py3-none-any.whl"
-    sha256 "3cca65f94b0aa33511433c7c1a661c513e4ad8bc0504cb370d181d771e7c9aa0"
+    url "https://files.pythonhosted.org/packages/ff/bb/cc0b27a3000ddcf4903d3a26983c8b4c9a36050bbaf05675f353e8bcb08c/transformers-5.22.2-py3-none-any.whl"
+    sha256 "829c2820aff91730b8ec45a4b8ff4be07f586a140b68a9073998b36fa35297dc"
   end
 
   resource "truststore" do
@@ -604,8 +599,8 @@ class Gmlx < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/07/ea/2e31b67051e91a133189e9c000c222502ddc6969856416de0d095de4c0b0/typer-0.27.3-py3-none-any.whl"
-    sha256 "e50022f28b82a86313e54501317a1db64bf8f8d036ff8cfe5ca7e47675454aff"
+    url "https://files.pythonhosted.org/packages/19/98/8ef60c7cd773dbab9d276a4c7bff505913a25b61acd8a9ef01ceeb70f554/typer-0.28.0-py3-none-any.whl"
+    sha256 "afd18929180b706c5e9a239f53c3c8136903553c0c2d460598bbaa924191d4ab"
   end
 
   resource "typing-extensions" do
@@ -614,8 +609,8 @@ class Gmlx < Formula
   end
 
   resource "typing-inspection" do
-    url "https://files.pythonhosted.org/packages/67/81/4add07e5172b7ac40d8ed5ff580409a7801a4fe26d529bdd915401dabfbe/typing_inspection-0.4.4-py3-none-any.whl"
-    sha256 "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147"
+    url "https://files.pythonhosted.org/packages/de/0c/ea2544850a7c135e15033a5c7a8e7211136184b7ae63e2239d557c2b3019/typing_inspection-0.4.5-py3-none-any.whl"
+    sha256 "bc210535442b39e1bf2805e0c7a17dfd6a4ace760c84c7f7d16245d23a6b1c39"
   end
 
   resource "tzdata" do
