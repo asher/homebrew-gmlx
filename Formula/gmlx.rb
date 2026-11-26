@@ -4,8 +4,8 @@ class Gmlx < Formula
 
   desc "Run, serve and fine-tune GGUF models natively on MLX"
   homepage "https://asher.github.io/gmlx/"
-  url "https://files.pythonhosted.org/packages/dd/d2/2ead37c0e9bdd6a03a83d2dc3e87f27ce91f9866ec157d4f93b6e2bfa218/gmlx-0.5.7.tar.gz"
-  sha256 "c62ed37f097c824b200740bcecfe89869487584c30d35f4ee0e90443062e3746"
+  url "https://files.pythonhosted.org/packages/16/77/d24a715a0733396eddfb9c779c1373bc93742b395692e47c1d64943f64d8/gmlx-0.5.8.tar.gz"
+  sha256 "0016d463ae7e607ebed27ddfdda66c45c1c68ced6045255abe5eb281147b9316"
   license all_of: ["BUSL-1.1", "MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
@@ -44,8 +44,8 @@ class Gmlx < Formula
   end
 
   resource "babel" do
-    url "https://files.pythonhosted.org/packages/77/f5/21d2de20e8b8b0408f0681956ca2c69f1320a3848ac50e6e7f39c6159675/babel-2.18.0-py3-none-any.whl"
-    sha256 "e2b422b277c2b9a9630c1d7903c2a00d0830c409c59ac8cae9081c92f1aeba35"
+    url "https://files.pythonhosted.org/packages/71/3b/ddf4b07be846bfa361683729b5948c9c61a87fbdf09e69540d8e586bb7c5/babel-2.19.0-py3-none-any.whl"
+    sha256 "6d49734aed1d595b2c065d012174df8c83964692f26fc461702281634dd7555b"
   end
 
   resource "blis" do
@@ -69,8 +69,8 @@ class Gmlx < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/91/da/3c5a7798c046df7d2d68ad653cf5b6c5a8bfee225055a843c6f2f42aac1a/charset_normalizer-3.5.2-cp313-cp313-macosx_10_13_universal2.whl"
-    sha256 "6045373d5a89a5ec71afde535db987ca28e76dfa276c2d4c818265b375d4b055"
+    url "https://files.pythonhosted.org/packages/75/59/47eca4000f8367014c2e1be786aa82bd8702120f24749853e6297eb8217b/charset_normalizer-3.5.3-cp313-cp313-macosx_10_13_universal2.whl"
+    sha256 "499e4bbeb1e79b14756311a1d12cb88112f244423e152d80981d9bcaff3279fa"
   end
 
   resource "click" do
@@ -129,8 +129,8 @@ class Gmlx < Formula
   end
 
   resource "filelock" do
-    url "https://files.pythonhosted.org/packages/68/66/870b527908a06c7ec0e91239bd2c4d0bb22921efd4f915428b4e47d461a6/filelock-4.3.0-py3-none-any.whl"
-    sha256 "f933f39f7e01249a4a49b9abab30edc6d4b874624c3de5dd0b0d137aa8adb979"
+    url "https://files.pythonhosted.org/packages/53/7b/678c8fbd372ff96375ac0bbdd20b78f20ef8ba6ca5966c49548fa5886557/filelock-4.3.1-py3-none-any.whl"
+    sha256 "79e43df8e9fe509cd83a3899a7c186c8077cbbe4d200a1ed3705c2f3bb6bc487"
   end
 
   resource "fsspec" do
@@ -264,8 +264,8 @@ class Gmlx < Formula
   end
 
   resource "mlx-kquant" do
-    url "https://files.pythonhosted.org/packages/be/e8/4fd2656cfcfe23ec73345638a911785effa5fabf4bc9906ee0390f3be87f/mlx_kquant-0.5.13-cp313-cp313-macosx_26_0_arm64.whl"
-    sha256 "4fbfd85f0a96f4243ab50e909b820f8aefc72b99b1a9e935038b0186483ae8a3"
+    url "https://files.pythonhosted.org/packages/b6/e0/6c60e792c3886929290cb93ee307ed6629fe7b3ba3d2128dd296a0a6bb39/mlx_kquant-0.5.15-cp313-cp313-macosx_26_0_arm64.whl"
+    sha256 "147cab06f9c068e72161ee0a483cf99f4569ab18a1db30f132eea26417a396ba"
   end
 
   resource "mlx-metal" do
@@ -319,8 +319,8 @@ class Gmlx < Formula
   end
 
   resource "packaging" do
-    url "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl"
-    sha256 "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    url "https://files.pythonhosted.org/packages/ba/7b/5504f91c9c2733f693d7759e50ede5d27119d4da7e5836c46d3b5ff81d56/packaging-26.4-py3-none-any.whl"
+    sha256 "81383611a09c1bc0b08b76e0fd5829d7c6824c65b27a6aee339da133f4233ea2"
   end
 
   resource "phonemizer-fork" do
@@ -379,28 +379,28 @@ class Gmlx < Formula
   end
 
   resource "pyobjc-core" do
-    url "https://files.pythonhosted.org/packages/d8/42/7b31511491d966b64183dfab325f022098e06e90c19a9cc8540de4f32588/pyobjc_core-13.0-cp313-cp313-macosx_10_13_universal2.whl"
-    sha256 "f29f7cdb3969268716017ada9516b94f6dd1c66c2e415274b5ac1169440da1a4"
+    url "https://files.pythonhosted.org/packages/72/7b/a7302a7acbca02a4ee074825ce03a4dafac769f2a7ab147d6eb45181a9b6/pyobjc_core-13.1-cp313-cp313-macosx_10_13_universal2.whl"
+    sha256 "1afdf8c1b153c34f21fe1ec55638752bc319e44cc323b56c3ff330e8e2b4b80c"
   end
 
   resource "pyobjc-framework-applicationservices" do
-    url "https://files.pythonhosted.org/packages/6c/09/f6ac5efc6ad5c257d5661543fb23e7b87efb717137de539a7fb977b6158b/pyobjc_framework_applicationservices-13.0-cp313-cp313-macosx_10_13_universal2.whl"
-    sha256 "048819e0b8dd840110d1dd59ce253d86c81876da8d360f841bd2fd82dc5f8f34"
+    url "https://files.pythonhosted.org/packages/a0/32/553e5b3fadc9de94cab21fac0eae635c31c3138b3958cb51b12525b5f5ae/pyobjc_framework_applicationservices-13.1-cp313-cp313-macosx_10_13_universal2.whl"
+    sha256 "2b71665ae2f5161b913f9706d881371ec95b610a7654a5078264ea05c76ba56d"
   end
 
   resource "pyobjc-framework-cocoa" do
-    url "https://files.pythonhosted.org/packages/01/b0/cb28ff4474a2f07bb9b64751112b3b40c421755297749c70810f4cadfc24/pyobjc_framework_cocoa-13.0-cp313-cp313-macosx_10_13_universal2.whl"
-    sha256 "bb0bcba2e4e9d05af875306e0e055cfc2f152fd602d5f2f1a54490adebebcd34"
+    url "https://files.pythonhosted.org/packages/f5/71/afdc9f7c89a5448538ce362c2d4d4592669fe2e13367be84cdd70a0d8ca1/pyobjc_framework_cocoa-13.1-cp313-cp313-macosx_10_13_universal2.whl"
+    sha256 "a1c1de3cdb469d66a7514a4c038f41eb8410f8ae1bbaf5fc56a297cd1607bf7a"
   end
 
   resource "pyobjc-framework-coretext" do
-    url "https://files.pythonhosted.org/packages/a0/b0/12aa98f4b6c423f1d1cadd16897662874969f97d41221e9c326b16227bdc/pyobjc_framework_coretext-13.0-cp313-cp313-macosx_10_13_universal2.whl"
-    sha256 "85cff5f6c8fdd19bf7b047ad5a5fda4b91fcbdfbf025856e7b79a9b069eff157"
+    url "https://files.pythonhosted.org/packages/3e/16/f46ee616201d7025aa849b89b199ec49ec07838f33591c9c39094916b9ee/pyobjc_framework_coretext-13.1-cp313-cp313-macosx_10_13_universal2.whl"
+    sha256 "63bda013ec5e4756e5538b9dd7fa8692a8852f2d579d320d99c57f79c1f07e80"
   end
 
   resource "pyobjc-framework-quartz" do
-    url "https://files.pythonhosted.org/packages/1e/b4/d16db7d8b21e5d252a84de57bfa71fb73f09014105430525392d3b6f6c24/pyobjc_framework_quartz-13.0-cp313-cp313-macosx_10_13_universal2.whl"
-    sha256 "f7a4fab3bb1a78640135db257f2c75277d0931bad26c500e34b88480c33dece1"
+    url "https://files.pythonhosted.org/packages/8c/15/6e0152b49d00468f98efe8113df47889974d8031233f99afd3bb57fa0c4a/pyobjc_framework_quartz-13.1-cp313-cp313-macosx_10_13_universal2.whl"
+    sha256 "a0cedaea6c500fa991c99153a8e6ff6ac9e5ca74269dbda980c81a6216c6461f"
   end
 
   resource "pyparsing" do
@@ -439,8 +439,8 @@ class Gmlx < Formula
   end
 
   resource "regex" do
-    url "https://files.pythonhosted.org/packages/4e/b4/d3de2b971baa718a8f47b240e6051ee0c1fd95d681ce44cd18109d33141e/regex-2026.11.19-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "e1dfacd322bc5d76b4f65c5f7b632c89311a8c48d199c5b5b73231e4d7fb0103"
+    url "https://files.pythonhosted.org/packages/82/c2/9245efe1aaa520a0257c1f5ed5d4606f35cb4263367ba8783c8b5b833e8a/regex-2026.11.24-cp313-cp313-macosx_11_0_arm64.whl"
+    sha256 "f2824fc17c2eb3e209df31fb4b153273aeae6e2f3c5a9972b5e235edf86ea909"
   end
 
   resource "requests" do
